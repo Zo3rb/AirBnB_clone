@@ -1,7 +1,9 @@
-#  0x00. AirBnB clone - The console
-<div class="panel-body">
 
-<p><img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2018/6/65f4a1dd9c51265f49d0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230207%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20230207T190050Z&amp;X-Amz-Expires=86400&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=3c97d690d5799e5d196c4a32f2601ddfa3515f2c47ef518f16067afff3233af1" alt="" loading="lazy" style=""></p>
+# 0x00. AirBnB clone - The console
+
+<div  class="panel-body">
+
+<p><img  src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2018/6/65f4a1dd9c51265f49d0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230207%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20230207T190050Z&amp;X-Amz-Expires=86400&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=3c97d690d5799e5d196c4a32f2601ddfa3515f2c47ef518f16067afff3233af1"  alt=""  loading="lazy"  style=""></p>
 
 <h2>Background Context</h2>
 
@@ -17,6 +19,14 @@
 
 <h4>First step: Write a command interpreter to manage your AirBnB objects.</h4>
 
+<ul>
+<li>create your data model</li>
+<li>manage (create, update, destroy, etc) objects via a console / command interpreter</li>
+<li>store and persist objects to a file (JSON file)</li>
+</ul>
+
+<img src="./flow_diagram.png" />
+  
 <p>This is the first step towards building your first full web application: the <strong>AirBnB clone</strong>.
 
 This first step is very important because you will use what you build during this project with all other following projects: HTML/CSS templating, database storage, API, front-end integration… </p>
@@ -61,31 +71,31 @@ This first step is very important because you will use what you build during thi
 
 <ul>
 
-<li><a href="/rltoken/8ecCwE6veBmm3Nppw4hz5A" title="cmd module" target="_blank">cmd module</a> </li>
+<li><a  href="/rltoken/8ecCwE6veBmm3Nppw4hz5A"  title="cmd module"  target="_blank">cmd module</a>  </li>
 
-<li><a href="/rltoken/uEy4RftSdKypoig9NFTvCg" title="cmd module in depth" target="_blank">cmd module in depth</a></li>
+<li><a  href="/rltoken/uEy4RftSdKypoig9NFTvCg"  title="cmd module in depth"  target="_blank">cmd module in depth</a></li>
 
 <li><strong>packages</strong> concept page</li>
 
-<li><a href="/rltoken/KfL9TqwdI69W6ttG6gTPPQ" title="uuid module" target="_blank">uuid module</a> </li>
+<li><a  href="/rltoken/KfL9TqwdI69W6ttG6gTPPQ"  title="uuid module"  target="_blank">uuid module</a>  </li>
 
-<li><a href="/rltoken/1d8I3jSKgnYAtA1IZfEDpA" title="datetime" target="_blank">datetime</a> </li>
+<li><a  href="/rltoken/1d8I3jSKgnYAtA1IZfEDpA"  title="datetime"  target="_blank">datetime</a>  </li>
 
-<li><a href="/rltoken/IlFiMB8UmqBG2CxA0AD3jA" title="unittest module" target="_blank">unittest module</a> </li>
+<li><a  href="/rltoken/IlFiMB8UmqBG2CxA0AD3jA"  title="unittest module"  target="_blank">unittest module</a>  </li>
 
-<li><a href="/rltoken/C_a0EKbtvKdMcwIAuSIZng" title="args/kwargs" target="_blank">args/kwargs</a> </li>
+<li><a  href="/rltoken/C_a0EKbtvKdMcwIAuSIZng"  title="args/kwargs"  target="_blank">args/kwargs</a>  </li>
 
-<li><a href="/rltoken/tgNVrKKzlWgS4dfl3mQklw" title="Python test cheatsheet" target="_blank">Python test cheatsheet</a> </li>
+<li><a  href="/rltoken/tgNVrKKzlWgS4dfl3mQklw"  title="Python test cheatsheet"  target="_blank">Python test cheatsheet</a>  </li>
 
-<li><a href="/rltoken/EvcaH9uTLlauxuw03WnkOQ" title="cmd module wiki page" target="_blank">cmd module wiki page</a></li>
+<li><a  href="/rltoken/EvcaH9uTLlauxuw03WnkOQ"  title="cmd module wiki page"  target="_blank">cmd module wiki page</a></li>
 
-<li><a href="/rltoken/begh14KQA-3ov29KvD_HvA" title="python unittest" target="_blank">python unittest</a></li>
+<li><a  href="/rltoken/begh14KQA-3ov29KvD_HvA"  title="python unittest"  target="_blank">python unittest</a></li>
 
 </ul>
 
 <h2>Learning Objectives</h2>
 
-<p>At the end of this project, you are expected to be able to <a href="#" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
+<p>At the end of this project, you are expected to be able to <a  href="#"  title="explain to anyone"  target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
 
 <h3>General</h3>
 
@@ -155,7 +165,7 @@ This first step is very important because you will use what you build during thi
 
 <li>All your test files should be inside a folder <code>tests</code></li>
 
-<li>You have to use the <a href="/rltoken/op1-rQGlw0wwwqNBsn1yaw" title="unittest module" target="_blank">unittest module</a> </li>
+<li>You have to use the <a  href="/rltoken/op1-rQGlw0wwwqNBsn1yaw"  title="unittest module"  target="_blank">unittest module</a>  </li>
 
 <li>All your test files should be python files (extension: <code>.py</code>)</li>
 
@@ -255,6 +265,6 @@ $
 
 <h4>AUTHORS:</h4>
 
-<h5><a href="https://github.com/Zo3rb">Ali Fakhri</a></h5>
+<h5><a  href="https://github.com/Zo3rb">Ali Fakhri</a></h5>
 
-<h5><a href="https://github.com/ismailadebiyi">Adebiyi Adebiyi</a></h5>
+<h5><a  href="https://github.com/ismailadebiyi">Adebiyi Adebiyi</a></h5>
