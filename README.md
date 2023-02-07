@@ -1,5 +1,4 @@
-# 0x00. AirBnB clone - The console
-
+#  0x00. AirBnB clone - The console
 <div class="panel-body">
 
 <p><img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2018/6/65f4a1dd9c51265f49d0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230207%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20230207T190050Z&amp;X-Amz-Expires=86400&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=3c97d690d5799e5d196c4a32f2601ddfa3515f2c47ef518f16067afff3233af1" alt="" loading="lazy" style=""></p>
@@ -17,14 +16,6 @@
 <p><br></p>
 
 <h4>First step: Write a command interpreter to manage your AirBnB objects.</h4>
-
-<ul>
-<li>create your data model</li>
-<li>manage (create, update, destroy, etc) objects via a console / command interpreter</li>
-<li>store and persist objects to a file (JSON file)</li>
-</ul>
-
-<img src="./flow_diagram.png" loading="lazy" />
 
 <p>This is the first step towards building your first full web application: the <strong>AirBnB clone</strong>.
 
