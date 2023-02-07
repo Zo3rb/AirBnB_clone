@@ -10,7 +10,7 @@
 
 <p><br></p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XRH_8w1DEGI" frameborder="0" allowfullscreen=""></iframe>
+[![SE - HBNB - Project Overview](https://youtu.be/1mAC9x3aixE)](https://youtu.be/1mAC9x3aixE)
 
 <p><br></p>
 
@@ -164,7 +164,7 @@ $
 
 <p><br></p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1mAC9x3aixE" frameborder="0" allowfullscreen=""></iframe>
+[![SE - HBNB - The Console](https://www.youtube.com/embed/1mAC9x3aixE)](https://www.youtube.com/embed/1mAC9x3aixE)
 
   </div>
 
