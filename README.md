@@ -191,6 +191,11 @@ This first step is very important because you will use what you build during thi
 
 </ul>
 
+<h3>Appendix -> Data Modal Diagram (Initial EER Modal) Provided</h3>
+<p>Designed with MySql's Workbench.</p>
+
+<img src="./initial_EER.png" alt="" title=".mwb Diagram file provided." />
+
 <h2>More Info</h2>
 
 <h3>Execution</h3>
