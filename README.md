@@ -284,29 +284,36 @@ $
 
 | ```Ctrl+D``` | Quits the console |
 
-| ```help``` or ```help <command>``` | Displays all commands or Displays instructions for a specific command
+| ```help``` or ```help <command>``` | Displays all commands or Displays instructions for a specific command |
 
-| ```create <class>``` | Creates an object of type , saves it to a JSON file, and prints the objects ID
+| ```create <class>``` | Creates an object of type , saves it to a JSON file, and prints the objects ID |
 
-| ```show <class> <ID>``` | Shows string representation of an object
+| ```show <class> <ID>``` | Shows string representation of an object |
 
-| ```destroy <class> <ID>``` | Deletes an objects
+| ```destroy <class> <ID>``` | Deletes an objects |
 
-| ```all or all <class>``` | Prints all string representations of all objects or Prints all string representations of all objects of a specific class
+| ```all or all <class>``` | Prints all string representations of all objects or Prints all string representations of all objects of a specific class |
 
-| ```update <class> <id> <attribute name> "<attribute value>"``` | Updates an object with a certain attribute (new or existing)
+| ```update <class> <id> <attribute name> "<attribute value>"``` | Updates an object with a certain attribute (new or existing) |
 
-| ```<class>.all()``` | Same as all ```<class>```
+| ```<class>.all()``` | Same as all ```<class>``` |
 
-| ```<class>.count()``` | Retrieves the number of objects of a certain class
+| ```<class>.count()``` | Retrieves the number of objects of a certain class |
 
-| ```<class>.show(<ID>)``` | Same as show ```<class> <ID>```
+| ```<class>.show(<ID>)``` | Same as show ```<class> <ID>``` |
 
-| ```<class>.destroy(<ID>)``` | Same as destroy ```<class> <ID>```
+| ```<class>.destroy(<ID>)``` | Same as destroy ```<class> <ID>``` |
 
-| ```<class>.update(<ID>, <attribute name>, <attribute value>``` | Same as update ```<class> <ID> <attribute name> <attribute value>```
+| ```<class>.update(<ID>, <attribute name>, <attribute value>``` | Same as update ```<class> <ID> <attribute name> <attribute value>``` |
 
-| ```<class>.update(<ID>, <dictionary representation>)``` | Updates an objects based on a dictionary representation of attribute names and values
+| ```<class>.update(<ID>, <dictionary representation>)``` | Updates an objects based on a dictionary representation of attribute names and values |
+
+<h3>Screenshots</h3>
+
+<img  src="./ss1.png"  alt=""  title="Program's Screenshots." />
+<img  src="./ss2.png"  alt=""  title="Program's Screenshots." />
+<img  src="./ss3.png"  alt=""  title="Program's Screenshots." />
+<img  src="./ss4.png"  alt=""  title="Program's Screenshots." />
 
 <h4>AUTHORS:</h4>
 <h5><a  href="https://github.com/Zo3rb">Ali Fakhri</a></h5>
