@@ -270,7 +270,7 @@ class HBNBCommand(cmd.Cmd):
             storage.save()
 
     def do_count(self, line):
-        """Retrives the count of instances of a class
+        """Retrieves the count of instances of a class
         """
         argv = parser(line)
         count_class = 0

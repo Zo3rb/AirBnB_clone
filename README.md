@@ -1,4 +1,4 @@
-
+  
 # 0x00. AirBnB clone - The console
 
 <div  class="panel-body">
@@ -20,13 +20,17 @@
 <h4>First step: Write a command interpreter to manage your AirBnB objects.</h4>
 
 <ul>
+
 <li>create your data model</li>
+
 <li>manage (create, update, destroy, etc) objects via a console / command interpreter</li>
+
 <li>store and persist objects to a file (JSON file)</li>
+
 </ul>
 
-<img src="./flow_diagram.png" />
-  
+<img  src="./flow_diagram.png" />
+
 <p>This is the first step towards building your first full web application: the <strong>AirBnB clone</strong>.
 
 This first step is very important because you will use what you build during this project with all other following projects: HTML/CSS templating, database storage, API, front-end integration… </p>
@@ -192,9 +196,10 @@ This first step is very important because you will use what you build during thi
 </ul>
 
 <h3>Appendix -> Data Modal Diagram (Initial EER Modal) Provided</h3>
+
 <p>Designed with MySql's Workbench.</p>
 
-<img src="./initial_EER.png" alt="" title=".mwb Diagram file provided." />
+<img  src="./initial_EER.png"  alt=""  title=".mwb Diagram file provided." />
 
 <h2>More Info</h2>
 
@@ -268,8 +273,41 @@ $
 
 </div>
 
+<h3>How to use:</h3>
+<p>You need to execute the program</p>
+
+| Commands | Description |
+
+| ------------- | ------------- |
+
+| ```quit``` | Quits the console |
+
+| ```Ctrl+D``` | Quits the console |
+
+| ```help``` or ```help <command>``` | Displays all commands or Displays instructions for a specific command
+
+| ```create <class>``` | Creates an object of type , saves it to a JSON file, and prints the objects ID
+
+| ```show <class> <ID>``` | Shows string representation of an object
+
+| ```destroy <class> <ID>``` | Deletes an objects
+
+| ```all or all <class>``` | Prints all string representations of all objects or Prints all string representations of all objects of a specific class
+
+| ```update <class> <id> <attribute name> "<attribute value>"``` | Updates an object with a certain attribute (new or existing)
+
+| ```<class>.all()``` | Same as all ```<class>```
+
+| ```<class>.count()``` | Retrieves the number of objects of a certain class
+
+| ```<class>.show(<ID>)``` | Same as show ```<class> <ID>```
+
+| ```<class>.destroy(<ID>)``` | Same as destroy ```<class> <ID>```
+
+| ```<class>.update(<ID>, <attribute name>, <attribute value>``` | Same as update ```<class> <ID> <attribute name> <attribute value>```
+
+| ```<class>.update(<ID>, <dictionary representation>)``` | Updates an objects based on a dictionary representation of attribute names and values
+
 <h4>AUTHORS:</h4>
-
 <h5><a  href="https://github.com/Zo3rb">Ali Fakhri</a></h5>
-
 <h5><a  href="https://github.com/ismailadebiyi">Adebiyi Adebiyi</a></h5>
